@@ -6,12 +6,12 @@ Este repositorio contiene un clasificador de tipos de carnes, el cual trabaja co
 
 El Archivo descargado posee una carpeta con nombre Dataset y posee dos subcarpetas: train y test.  Cada una contiene fotografias de carnes de 8 tipos clasificadas en subcarpetas.
 
-##OBJETIVOS:
+OBJETIVOS:
 
   - Obtener un clasificador de imágenes de forma que dada una nueva imagen se pueda obtener la clase correspondiente.
   - Obtener las matrices de confusión del modelo, la matriz de confusión del error en training y la de test.
 
-##LIBRERIAS UTILIZADAS EN EL PROYECTO A SER INSTALADAS PARA SU FUNCIONAMIENTO.
+LIBRERIAS UTILIZADAS EN EL PROYECTO A SER INSTALADAS PARA SU FUNCIONAMIENTO.
 
   import sys
   import os
@@ -20,8 +20,7 @@ El Archivo descargado posee una carpeta con nombre Dataset y posee dos subcarpet
   from tensorflow.keras import backend as K
   from tensorflow.keras import optimizers
   from tensorflow.keras.models import Sequential
-
-##ARCHIVOS CONTENIDOS EN EL PROYECTO REALIZADO EN JUPYTER NOTEBOOK
+ARCHIVOS CONTENIDOS EN EL PROYECTO REALIZADO EN JUPYTER NOTEBOOK
 
 - Entrenamiento.ipynb  (Código con la configuracion y el entrenamiento de la red neuronal CNN)
 - Matriz_Datatest.ipynb  (Código que muestra la Matriz de confusion de basado en los datos para test)
